@@ -92,11 +92,11 @@ class _ScreenCalculadoraState extends State<ScreenCalculadora> {
 
       appBar: AppBar(
         title: const Text(
-          'Calculadora',
+          'Calculadora version 1.0',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
-        backgroundColor: const Color(0xFF3157C8),
+        backgroundColor: const Color.fromARGB(255, 186, 8, 8),
         foregroundColor: Colors.white,
       ),
 
