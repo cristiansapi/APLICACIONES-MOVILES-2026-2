@@ -10,6 +10,7 @@ class ScreenPreferencias extends StatefulWidget {
 class _ScreenPreferenciasState extends State<ScreenPreferencias> {
   final preferencesController = PreferenciasController();
   final nombreController = TextEditingController();
+  final edadController = TextEditingController();
   Future<void> cargarDatos() async {
     final nombre = await preferencesController.cargarNombre();
     setState(() {
@@ -20,6 +21,7 @@ class _ScreenPreferenciasState extends State<ScreenPreferencias> {
   Future<void> guardarDatos() async {
     final nombre = nombreController.text;
     await preferencesController.guardarNombre(nombre);
+    await preferencesController.guardarEdad(25); // Guardar edad como ejemplo
   }
 
   Future<void> eliminarDatos() async {
