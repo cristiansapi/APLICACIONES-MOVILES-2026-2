@@ -3,6 +3,7 @@ import 'package:flutter_app_1/screen/screen_basico1.dart';
 import 'package:flutter_app_1/screen/screen_basico2.dart';
 import 'package:flutter_app_1/screen/screen_calculadora.dart';
 import 'package:flutter_app_1/screen/screen_formulario.dart';
+import 'package:flutter_app_1/screen/screen_preferencias.dart';
 import 'package:flutter_app_1/screen/screen_validacion.dart';
 import 'package:flutter_app_1/screen/screen_validacion_two.dart';
 
@@ -16,7 +17,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ScreenFormulario(),
+      home: ScreenPreferencias(),
     );
   }
 }
