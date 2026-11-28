@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_1/screen/estudiante_screen.dart';
 import 'package:flutter_app_1/screen/screen_basico1.dart';
 import 'package:flutter_app_1/screen/screen_basico2.dart';
 import 'package:flutter_app_1/screen/screen_calculadora.dart';
@@ -17,7 +18,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ScreenPreferencias(),
+      home: EstudianteScreen(),
     );
   }
 }
